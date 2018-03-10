@@ -37,7 +37,7 @@ p {
 
 #home-cover {
     /* The image used */
-    background-image: url("../img/bg-home.png");
+    background-image: url("../img/bg-home.jpeg");
 
     /* Full height */
     height: 100%;
@@ -203,7 +203,7 @@ p {
     width: 60%;
     height: 700px;
     float: right;
-    background-image: url("../img/bg-about.jpg");
+    background-image: url("../img/bg-about.jpeg");
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
 }
@@ -604,7 +604,7 @@ form .form-control {
 ===================================================*/
 
 .navbar {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .monica-top-nav {
