@@ -199,6 +199,7 @@ p {
 /*================================================
                     ABOUT
 ===================================================*/
+/*
 #about-bg-diagonal {
     width: 60%;
     height: 700px;
@@ -206,13 +207,10 @@ p {
     background-image: url("../img/bg-about.jpeg");
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
-}
+}*/
 
-#about-content-box {
-    float: left;
-    height: 700px;
-}
 
+/*
 #about-content-box-outer {
     width: 100%;
     height: 100%;
@@ -224,20 +222,43 @@ p {
     vertical-align: middle;
 
 }
-
+*/
 #about .content-title h3 {
-    text-align: left;
+    text-align: center;
 }
 
 #about  .content-title-underline {
     margin: 0 0 30px 0;
 }
 
+
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 10% solid #fff;
+    border-top: 700px solid transparent;
+    border-right: 10% solid #fff;
+}
+
+/*
 #about-desc p {
     margin-bottom: 30px;
     
+}*/
+#flex-item-1 {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
 }
+#flex-item-2 {
+    flex: 1;
+    min-width: 400px;
+}
+#flex-item-2 img {
 
+    max-width: 100%;
+}
 
 /*================================================
                     GALLERY
@@ -637,7 +658,7 @@ form .form-control {
     
 }
 
-#nav-item-1, #nav-item-2, #nav-item-3, #nav-item-4 {
+#nav-item-1, #nav-item-2, #nav-item-3, #nav-item-4, #nav-item-5 {
     color:#fff;
 }
 #nav-item-1:hover , #nav-item-2:hover, #nav-item-3:hover, #nav-item-4:hover {
